@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<script>(function(){try{if(localStorage.getItem('theme')==='light')document.documentElement.classList.add('light-theme');}catch(e){}})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Moinak Ghoshal | Publications</title>
+	<meta name="description" content="Publications by Moinak Ghoshal on 5G/6G networks, mobile systems, and wireless network measurement, including papers at ACM IMC, SIGCOMM, MobiCom, MobiHoc, and IEEE/ACM ToN." />
+	<link rel="canonical" href="https://moinakgh.github.io/publications.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Moinak Ghoshal | Publications" />
+	<meta property="og:description" content="Publications by Moinak Ghoshal on 5G/6G networks, mobile systems, and wireless network measurement." />
+	<meta property="og:url" content="https://moinakgh.github.io/publications.html" />
+	<meta property="og:image" content="https://moinakgh.github.io/images/profile-avatar.jpg" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+<body data-page="publications">
+<script src="assets/js/sidebar.js"></script>
+
+<div class="content">
+	<div class="container">
+		<h2 class="page-title">Publications</h2>
+
+		<div class="pub-toggle-bar">
+			<button class="toggle-btn active" data-view="selected">Selected</button>
+			<button class="toggle-btn" data-view="year">By Year</button>
+			<button class="toggle-btn" data-view="topic">By Topic</button>
+			<button class="toggle-btn" data-view="venue">By Venue Type</button>
+		</div>
+
+		<p class="pub-note">* indicates co-primary authors</p>
+
+		<div id="pub-view-selected" class="pub-view active"></div>
+		<div id="pub-view-year" class="pub-view"></div>
+		<div id="pub-view-topic" class="pub-view"></div>
+		<div id="pub-view-venue" class="pub-view"></div>
+	</div>
+</div>
+
+<script src="assets/js/publications-data.js"></script>
+<script src="assets/js/publications.js"></script>
+<script src="assets/js/search-data.js"></script>
+<script src="assets/js/search.js"></script>
+</body>
+</html>

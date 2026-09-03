@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moinakgh.github.io/sitemap.xml
