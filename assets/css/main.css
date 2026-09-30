@@ -427,29 +427,35 @@ h2.page-title {
 
 .news-strip {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-}
-
-.news-item {
-	flex: 1;
-	min-width: 260px;
+	flex-direction: column;
 	background: var(--accent-bg);
 	border-left: 3px solid var(--accent);
 	border-radius: 8px;
-	padding: 1rem 1.25rem;
+	overflow: hidden;
+}
+
+.news-item {
+	display: flex;
+	align-items: baseline;
+	gap: 1rem;
+	padding: 0.7rem 1.25rem;
 	font-size: 0.95rem;
 	line-height: 1.5;
+	border-bottom: 1px solid var(--border);
+}
+
+.news-item:last-child {
+	border-bottom: none;
 }
 
 .news-date {
-	display: block;
+	flex: 0 0 auto;
+	min-width: 84px;
 	color: var(--accent);
 	font-weight: 700;
 	font-size: 0.78rem;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
-	margin-bottom: 0.35rem;
 }
 
 .side-photo-layout {
